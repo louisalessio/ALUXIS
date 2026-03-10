@@ -8,7 +8,7 @@ protocols = {
     443: "HTTPS (Sicuro)"
 }
 
-target = "127.0.0.1" 
+target = "127.0.0.1"
 
 print(f"--- [ALUXIS] NIS2 Audit Init: {target} ---")
 
