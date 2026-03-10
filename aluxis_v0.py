@@ -1,6 +1,5 @@
 import socket
 
-# I protocolli che la NIS2 vuole che tu monitori
 protocols = {
     21: "FTP (Non sicuro - Alto rischio)",
     22: "SSH (Sicuro se configurato)",
@@ -9,7 +8,7 @@ protocols = {
     443: "HTTPS (Sicuro)"
 }
 
-target = "127.0.0.1" # Il tuo computer locale
+target = "127.0.0.1" 
 
 print(f"--- [ALUXIS] NIS2 Audit Init: {target} ---")
 
